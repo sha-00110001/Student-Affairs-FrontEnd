@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+
+.navi{
+  
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: #f9f9f9;
+    width: 100%; 
+    padding: 2px;
+    
+  
+  }
+  
+  
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+     
+    }
+    
+    li {
+  
+      float:left;
+      margin: 10px;
+  
+    }
+    
+    li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      position: center;
+      border-bottom: 2pxsolid transparent;
+    }
+    
+    
+    li a:hover {
+      background-color: rgb(58, 145, 162);
+    }
+   
+  
+    .navi a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 5px;
+        background-color: #aa8382;
+    
+    }
+    
+    .navi a:hover {
+      background-color: rgba(58, 145, 162, 0.436);;
+      color: black;
+    }
+   
+    
+    .navi a.active {
+      background-color: #136a8a;
+      color: white;
+    }
+
+
+
+    /*search*/
+    form.search input[type=search] {
+        padding: 10px;
+        padding-left: 20px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 57%;
+        background: #f1f1f1;
+        margin: 20px;
+      }
+      form.search button {
+        float: left;
+        width: 5%;
+        padding: 10px;
+        background: #136a8a;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; 
+        cursor: pointer;
+        margin: 20px;
+        margin-left: 0;
+
+      }
+      
+      form.search button:hover {
+        background: #136a8a;
+      }
+
+      form.search::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      table {
+        width: 100%;
+        margin: 10px;
+        border: 1px solid rgba(211, 204, 204, 0.796) ;
+        border-spacing: 0;
+        padding: 10px;
+        text-align:left;
+        width: 67%;
+        border-collapse: collapse;
+        overflow-x:auto;
+
+
+      }
+      thead{
+          background-color:#f9f0effd;
+          ;
+      }
+      thead, td {
+        padding: 20px;
+        border: 1px solid rgba(211, 204, 204, 0.796) ;
+
+    }
+    tr:nth-child(even) {background-color: rgb(233, 242, 244)}
+    
+      

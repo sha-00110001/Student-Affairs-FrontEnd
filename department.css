@@ -1,0 +1,154 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box
+  }
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+    
+  }
+
+.navi {
+    margin-left: auto;
+    margin-right: auto;
+    background: #f9f9f9;
+    width: 100%;
+    padding: 2px;
+}
+
+
+   
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f6f6f3;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+    li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        position: center;
+        border-bottom: 2pxsolid transparent;
+    }
+
+
+        li a:hover {
+            background-color: rgb(58, 145, 162);
+        }
+
+
+.navi a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #1d82a7;
+}
+
+    .navi a:hover {
+        background-color: rgba(58, 145, 162, 0.436);
+        ;
+        color: black;
+    }
+
+    /* 1d82a7 */
+
+    .navi a.active {
+        background-color: #136a8a;
+        color: white;
+    }
+
+/* navigation end  */
+.-section {
+    text-align:left;
+    display: inline-block;
+    color: #ecf1f3;
+    background: #136a8a;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    bottom:3%;
+    left: 35%;
+    right: 35%;
+    border-radius: 9px;
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: hidden;
+    outline: none;
+}
+
+
+.dp {
+    font-size: 25px;
+    margin-top: 5px;
+    width: 400px;
+    display: inline;
+}
+
+.form-label {
+    font-size: 25px;
+    margin-top: 5px;
+    width: 400px;
+    display: block;
+}
+
+
+
+.in {
+    width: 150px;
+    height: 25px;
+    color: black;
+}
+
+.form-in {
+    font-size: 20px;
+    background-color: #074356;
+    color: #f7f7f7;
+    border-top-color: #f7f7f7;
+    box-shadow: 0px 2px 10px rgba(60, 75, 12, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3), 0px 30px 60px 1px rgba(130, 122, 122, 0.2);
+    margin-top: 5px;
+    width: 150px;
+}
+
+.sel {
+    border-top-color: #f7f7f7;
+    color: black;
+    background-color: #b0c9d5;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 30px 60px 1px rgba(46, 43, 43, 0.1);
+    width: 75px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    line-height: 3;
+    display: flex;
+    width: 20em;
+    height: 2em;
+    transition: transform 0.3s ease;
+}
+
+.form-in:hover {
+    background-color: rgba(203, 220, 223, 0.955);
+    ;
+    color: black;
+}
+
+
+

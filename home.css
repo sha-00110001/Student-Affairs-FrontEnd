@@ -1,0 +1,364 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  
+}
+
+/* image header */
+.home {
+  display: block;
+  font-size: larger;
+  background-position: center ;
+  background-size: cover;
+  background-image: url("2.jpeg");
+  min-height: 70%;
+  opacity: 90%;
+  width: 80;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+  
+
+}
+.home-head{
+  font-size: larger;
+    width: 100%;
+    display: inline-block;
+
+}
+
+
+
+/*login box*/
+
+  .login ,.msg {
+    display: inline-block;
+    color: white;
+    background:  #136a8a;
+    background: 
+      -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: 
+      linear-gradient(to right, #267871, #136a8a);
+      position:absolute;
+    margin: auto;
+    top:20%;
+    left: 60%;
+    box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0,0,0,0.7);
+    border-radius: 9px;
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: hidden;
+    outline: none;
+    }
+
+
+
+ .login .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login .form input[type=text].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+.login .form .text::placeholder {
+  color: #D3D3D3;
+}
+.login .form input[type=password].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.login .form .password::placeholder {
+  color: #D3D3D3;
+}
+.login .form .btn-login {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 4px 35px;
+  transition: 0.5s;
+}
+.login .form .btn-login:hover {
+  background: white;
+  color: dimgray;
+  transition: 0.5s;
+}
+
+.login .forgot {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+/*-------------------------------------------------------------------------------------------- sign up form*/
+
+
+
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/*focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* all buttons */
+button {
+  background-color: #03bf7a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The form background */
+.model {
+  display: none; 
+  position: fixed;
+  
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  float: none;
+  width: 50%; 
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #62a69fec, #136a8afc);
+  padding: 50px;
+  margin-left: 25%;
+  margin-right:25%;
+  margin: 5% 25% 15% 25%;
+  box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0,0,0,0.7);
+  
+  
+}
+
+/* Modal Box */
+.modal-content {
+  background-color: #8e414124;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/*horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* (x) Button */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* The message box*/
+#msg {
+  display:none;
+  
+}
+
+#msg p {
+  padding: 2px 20px;
+  }
+
+/* right requirements */
+.valid {
+  color: rgb(255, 255, 255);
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✓";
+  color: rgb(22, 203, 22);
+}
+
+/* wrong requirements*/
+.invalid {
+  color: rgb(255, 255, 255);
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+  color: rgb(255, 0, 0);
+}
+
+
+
+
+
+/* Contact form */
+
+.contact-section{
+    background-color: #f7f7f7;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h1{
+    text-align:center;
+    color: #136a8a;
+
+}
+.border{
+    width: 100px;
+    height: 5px;
+    background-color: #136a8a;
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 17px 0;
+    border: 0;
+    background: #ddd;
+    padding: 20px 40px;
+    outline: none;
+    color: #000000;
+    transition: 0.5 s;
+}
+.contact-form-text:focus{
+    box-shadow: 
+     
+      0px 30px 60px 1px rgba(58, 145, 162, 0.436);
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background-color: #374d62;
+    color: #fff;
+    padding: 14px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+.info {
+    order: -1;
+    text-align: center;
+    flex-basis: 25%;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+     color: #777;
+ line-height: 2;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  }
+
+   .info h4 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+   
+  
+
+
+
+  

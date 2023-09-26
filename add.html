@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Add Student</title>
+
+    <script src="validate.js"></script>
+    <link rel="stylesheet" href="Add.css">
+    <link rel="stylesheet" href="home.css">
+
+
+</head>
+
+<body>
+    <!-- navigation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="navi">
+        <ul>
+            <div>
+                <li> <a href="index.html" title="Return To Home Page"><i class="fa fa-home" aria-hidden="true"></i> Home
+                    </a> </li>
+            </div>
+            <div>
+                <li> <a href="add.html" title="Go To Add Student"><i class="fa fa-user-o" aria-hidden="true"></i> Add
+                        Student </a> </li>
+            </div>
+            <div>
+                <li> <a href="update.html" title="Update information"> <i class="fa fa-pencil-square-o"
+                            aria-hidden="true"></i> Update info. </a> </li>
+            </div>
+            <div>
+                <li> <a href="search.html" title="Search"> <i class="fa fa-search" aria-hidden="true"></i> Search For
+                        student </a> </li>
+            </div>
+            <div>
+                <li> <a href="view_student.html" title="status of students"> <i class="fa fa-eye"
+                            aria-hidden="true"></i> View all students </a> </li>
+
+            </div>
+
+        </ul>
+
+    </div>
+
+
+    <form action="" method="post">
+
+        <div>
+            <h1>Fill this form</h1>
+        </div>
+
+
+
+        <div class="inputs">
+            <div class="labels">
+                <p>ID</p>
+
+            </div>
+
+
+            <input type="text" required placeholder="id" id="id" minlength="8">
+
+        </div>
+
+
+
+        <div class="inputs">
+            <div class="labels">
+                <p>Name</p>
+            </div>
+
+            <input type="text" required placeholder="name" id="name" maxlength="30" minlength="10">
+
+        </div>
+
+
+
+        <div class="inputs">
+            <div class="labels">
+                <p>Date of birth</p>
+
+            </div>
+
+            <input type="date" placeholder="birthday..." id="birth">
+
+        </div>
+
+
+
+        <div class="select" style="width: 180px;">
+            <select name="gender" id="gender">
+                <option selected disabled>select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="select" style="width: 180px;">
+            <select name="level" id="level">
+                <option selected disabled>select level</option>
+                <option value="level1">Level 1</option>
+                <option value="level2">Level 2</option>
+                <option value="level3">Level 3</option>
+                <option value="level4">Level 4</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="select" style="width: 180px;">
+            <select name="status" id="status">
+                <option selected disabled>select status</option>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="select" style="width: 180px;">
+            <select name="department" id="department">
+                <option selected disabled>select department</option>
+                <option value="department1">Department 1</option>
+                <option value="department2">Department 2</option>
+                <option value="department3">Department 3</option>
+                <option value="department4">Department 4</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="inputs">
+            <div class="labels">
+                <p>GPA</p>
+
+            </div>
+            <input type="text" required placeholder="GPA" id="GPA">
+
+        </div>
+
+
+        <div class="inputs">
+            <div class="labels">
+                <p>Email</p>
+
+            </div>
+            <input type="email" required placeholder="email" id="email" autocomplete="off"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        </div>
+
+
+
+        <div class="inputs">
+            <div class="labels">
+                <p>Mobile number</p>
+
+            </div>
+            <input type="text" required placeholder="mobile number" id="number" minlength="11">
+
+        </div>
+
+        <br>
+
+        <div class="button-container">
+            <div class="button">
+                <button class="btn-1">Submit</button>
+            </div>
+
+        </div>
+
+
+
+        <br>
+
+
+
+
+
+
+
+        <br>
+
+
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+<br>
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+
+</html>
